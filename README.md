@@ -52,6 +52,10 @@ To install the dependencies with apt get:
 
     apt-get install libboost-all-dev cmake
 
+Or with dnf:
+    
+    dnf install boost-devel cmake
+    
 To build under linux using cmake, create a build directory,
 invoke cmake on the programs directory, then build. The command
 below uses four threads, but you may set it according to your
